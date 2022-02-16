@@ -1,0 +1,27 @@
+.modify-text {
+    font-size: 20px ;
+    color:orange;
+    font-style:italic;
+
+}  
+#modify-text-id{
+   font-size: 20px ;
+    color:#5feb0e;
+    font-style:italic; 
+}
+p {
+   font-size: 20px ;
+    color:#c00000;
+} 
+h1 {
+   font-size: 20px ;
+    color:#75355d;
+}  
+h2{
+   font-size: 20px ;
+    color:#e40eeb;
+}
+h3{
+   font-size: 20px ;
+    color:#0e37eb;
+}
