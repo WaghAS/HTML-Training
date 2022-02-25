@@ -2,15 +2,33 @@
     <head>
          <link rel=" stylesheet" href="E:\Board Infinity\HTML-Training\sign-up-06-02-22.css">
     </head>
+    <script>
+      // var signup=function(){
+      //   alert("Sign Up")
+      // }
+
+      // function signup() {
+      //  alert("Sign up")
+      // }
+
+      function signup() {
+        var Username = document.getElementById("username"); 
+
+        var  box= document.getElementById("showval");
+        
+        box.innerHTML= Username.value;
+      }
+    </script>
     <body>
       <div class="sign-up">
+          <div id="showval"> </div>
           <h3 class="header">Sign Up</h3>
           <form>
             <div>
                 <div> 
                 <lable> Username</lable>
                 </div>
-                <input placeholder="Enter Your Username " type="text">
+                <input id="username"  placeholder="Enter Your Username " type="text">
             </div> 
             <div>
                 <div>
@@ -24,11 +42,31 @@
               </div>
               <input  placeholder="Confirm Password " type="text">
           </div>
+          <div>
+            <div>
+            <lable>E-mail </lable>
+            </div>
+            <input  placeholder="Enter our E-mail ID " type="text">
+        </div>
+        <div>
+          <div>
+          <lable>Adderess</lable>
+          </div>
+          <input  placeholder="Enter your Adderess " type="text">
+      </div>
+      <div>
+        <div>
+        <lable>DOB</lable>
+        </div>
+        <input type="datetime-local">
+    </div>
           <div class="button-box">
-              <button class="button-signup"> Sign Up!</button>
+              <button class="button-signup" onclick="signup()"> Sign Up!</button>
               <p class="signin-text">Already have an account? <a href=""  class="signin-link">Sign In!</a></p>
           </div>
           </form>
       </div>   
     </body>
 </html>
+
+<!-- // alert(username.value) -->

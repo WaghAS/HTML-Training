@@ -1,0 +1,52 @@
+.mar-test{
+    /* margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px; */
+
+    margin: 10px 12px 16px 15px; 
+
+    border: 1px solid;
+
+    padding: 10px 10px 15px 20px;
+
+    height: 250px ;
+
+    min-height: 200px;
+
+    max-height: 300px;
+    max-width: 100px;
+
+/* (below mention top left  bottom right only works with postion) 
+   position: absolute; 
+    top: 50px;  
+    left: 10px;
+    bottom: 10px;
+    right: 10px; */ 
+    
+    position: absolute;
+    /* overflow: auto; */
+    overflow: scroll;
+    
+    opacity: 0.5;  
+    /*  (opcity is used to show some text  blurr  it mx valu 1 and mini value is 0 you can put 0 to 1) */
+
+    background-image: url("path of image");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+
+}
+body{
+    background-image: url("path of image ");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+    /* .mar-position{
+    position: relative;  */ 
+    .mar-position{
+    position: fixed;
+    top: 40px;
+} 
